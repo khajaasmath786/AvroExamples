@@ -10,14 +10,15 @@ Asmath's fiinding
 1. pom.xml will show error in project perspective at Generate resources goal of the avro-maven-plugin . Ignore this error as it is existing issue with avro plugin.
 
 <groupId>org.apache.avro</groupId>
-				<artifactId>avro-maven-plugin</artifactId>
-				<version>1.7.6</version>
-				<executions>
-					<execution>
-						<phase>generate-sources</phase>
-						
+	<artifactId>avro-maven-plugin</artifactId>
+	<version>1.7.6</version>
+	<executions>
+	<execution>
+	<phase>generate-sources</phase>
+	
 2  book.avsc (Book avro schema) will generate the classes by running mvn generate-sources goal from the eclipse. 
 Right click POM.XML file and run as Generate Sources from Maven. This will generate class Book in the package com.cts.avro.entity
+
 "namespace": "com.cts.avro.entity",
 	"type": "record",
 	"name": "Book",
@@ -33,11 +34,11 @@ dependencies. This can be done by the maven shade plugin
       <execution>
         <phase>package</phase>
         <goals>
-          <goal>shade</goal>
+        <goal>shade</goal>
         </goals>
         <configuration>
-          <shadedArtifactAttached>true</shadedArtifactAttached>
-          <shadedClassifierName>all</shadedClassifierName>
+        <shadedArtifactAttached>true</shadedArtifactAttached>
+        <shadedClassifierName>all</shadedClassifierName>
         </configuration>
       </execution>
     </executions>
