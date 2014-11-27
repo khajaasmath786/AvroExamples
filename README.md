@@ -18,6 +18,7 @@ Asmath's fiinding
 	<executions>
 	<execution>
 	<phase>generate-sources</phase>
+	
 2##. book.avsc (Book avro schema) will generate the classes by running mvn generate-sources goal from the eclipse. 
 Right click POM.XML file and run as Generate Sources from Maven. This will generate class Book in the package com.cts.avro.entity
 
