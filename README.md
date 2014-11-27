@@ -2,7 +2,10 @@ AvroExamples
 ============
 -------------------------------------------------------------------------------------------
 References:
+
+
 http://www.hascode.com/2014/03/using-apache-avro-with-java-and-maven/
+
 http://avro.apache.org/docs/1.7.5/gettingstartedjava.html
 --------------------------------------------------------------------------------------------
 Asmath's fiinding
