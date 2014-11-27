@@ -10,7 +10,7 @@ http://avro.apache.org/docs/1.7.5/gettingstartedjava.html
 --------------------------------------------------------------------------------------------
 Asmath's fiinding
 
-1. pom.xml will show error in project perspective at Generate resources goal of the avro-maven-plugin . Ignore this error as it is existing issue with avro plugin.
+1##. pom.xml will show error in project perspective at Generate resources goal of the avro-maven-plugin . Ignore this error as it is existing issue with avro plugin.
 
 <groupId>org.apache.avro</groupId>
 	<artifactId>avro-maven-plugin</artifactId>
@@ -18,15 +18,14 @@ Asmath's fiinding
 	<executions>
 	<execution>
 	<phase>generate-sources</phase>
-	
-2  book.avsc (Book avro schema) will generate the classes by running mvn generate-sources goal from the eclipse. 
+2##. book.avsc (Book avro schema) will generate the classes by running mvn generate-sources goal from the eclipse. 
 Right click POM.XML file and run as Generate Sources from Maven. This will generate class Book in the package com.cts.avro.entity
 
 "namespace": "com.cts.avro.entity",
 	"type": "record",
 	"name": "Book",
 	
-3. Maven will store all the dependencies in local repository under /users/kmohamm2/.m2 .... Sometimes we need to create jar with
+3##. Maven will store all the dependencies in local repository under /users/kmohamm2/.m2 .... Sometimes we need to create jar with
 dependencies. This can be done by the maven shade plugin
 
 <plugin>
