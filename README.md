@@ -7,6 +7,18 @@ References:
 http://www.hascode.com/2014/03/using-apache-avro-with-java-and-maven/
 
 http://avro.apache.org/docs/1.7.5/gettingstartedjava.html
+
+Reference : 
+http://java.dzone.com/articles/mapreduce-avro-data-files#viewSource
+
+ALways use below link
+Avro command line 
+
+http://www.michael-noll.com/blog/2013/03/17/reading-and-writing-avro-files-from-the-command-line/
+
+Avro with Hive
+http://www.michael-noll.com/blog/2013/07/04/using-avro-in-mapreduce-jobs-with-hadoop-pig-hive/
+
 --------------------------------------------------------------------------------------------
 Asmath's fiinding
 
